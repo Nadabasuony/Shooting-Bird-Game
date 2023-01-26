@@ -1,0 +1,143 @@
+body {
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container3 {
+    background-color: #ecedf145;    
+    /* background-color: #ffc23e88; */
+    backdrop-filter: blur(5px);
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    top: 21vh;
+    position: relative;
+    padding: 59px;
+    margin: 15px 407px;
+    box-shadow: -2px 3px 11px 0px #181817;
+    border-radius: 9px;
+}
+
+.container5 {
+    background-color: #ecedf145;
+    backdrop-filter: blur(5px);
+    background-image: url("../images/yay.gif");
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    top: 17vh;
+    position: absolute;
+    padding: 60px 100px;
+    margin: 26px 433px;
+    visibility: hidden;
+    box-shadow: -2px 3px 11px 0px #181817;
+    border-radius: 9px;
+}
+
+.container6 {
+    background-color: #ecedf145;
+    backdrop-filter: blur(5px);
+    background-image: url("../images/nay.gif");
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    top: 17vh;
+    position: absolute;
+    padding: 60px 100px;
+    margin: 26px 433px;
+    visibility: hidden;
+    box-shadow: -2px 3px 11px 0px #181817;
+    border-radius: 9px;
+}
+
+.start, .again1, .again2 {
+    cursor: pointer;
+    margin-top: 25px;
+    width: 130px;
+    height: 38px;
+    border-radius: 31px;
+    border: #67a429 3px solid;
+    font-weight: 900;
+    background-color: #8bc242;
+}
+
+.start:hover, .again1:hover, .again2:hover {
+    background-color: #67a429;
+    border: #4a8818 3px solid;
+}
+
+.control {
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #c4e556d9;
+    text-align: center;
+    border-radius: 18px;
+    width: 260px;
+    height: 40px;
+    padding-top: 10px;
+    top: 23px;
+}
+
+#welcome {
+    left: 10vh;
+}
+
+#score {
+    left: 60vh;
+}
+ 
+#timer {
+    left: 110vh;
+}
+
+#killed {
+    left: 159vh;
+}
+
+#greeting, #storedName {
+    display: inline-block;
+}
+
+.bomb {
+    width: 120px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.boom {
+    width: 120px;
+}
+
+.bird {
+    width: 200px;
+    top: 0px;
+    position: absolute;
+}
+
+.bird1 {
+    width: 200px;
+}
+
+.bird2 {
+    width: 200px;
+}
+
+.bird3 {
+    width: 200px;
+}
+
+.bombContainer {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+#end {
+    width: 200px;
+}
+
+#scored , #visit, #hi {
+    font-size: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/indexStyling.css">
+    <title>Shooting Birds</title>
+</head>
+<body>
+    <div class="container1">
+
+        <div class="text">Select Game Level</div>
+        <select name="select" id="select" required >
+            <option value="level">Level 1</option>
+        </select>
+
+        <div class="text">Enter Your Name</div>
+        <input type="text" id="name" name="urName"> <br>
+        <h5 id="noNameError" class="hidden">Please Write Your Name</h5>
+
+        <button class="go" >Go</button>
+    </div>
+
+    <div class="container2">
+
+        <div class="text">Game Bird Shooting Points</div>
+
+        <img src="../images/1.gif" class="images">
+        <div class="blue">+5 Points</div> <br>
+
+        <img src="../images/2.gif" class="images">
+        <div class="yellow">+10 Points</div> <br>
+
+        <img src="../images/3.gif" class="images">
+        <div class="red">-10 Points</div> <br>
+
+    </div>
+    
+    
+    <script src="../script/indexScript.js"></script>
+</body>
+</html>

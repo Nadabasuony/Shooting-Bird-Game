@@ -1,0 +1,114 @@
+body {
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container1 {
+    text-align: center;
+    top: 43px;
+    position: relative;
+    background-color: #bee8ffc2;
+    padding: 20px 0;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 9px;
+    box-shadow: -2px 3px 11px 0px #181817;
+}
+
+.container2 {
+    text-align: center;
+    top: 80px;
+    position: relative;
+    background-color: #bee8ffc2;
+    padding: 20px 0;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 9px;
+    box-shadow: -2px 3px 11px 0px #181817;
+}
+
+.text {
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+#select {
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#name {
+    width: 245px;
+    height: 26px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 11px;
+}
+
+#name:hover {
+    background-color: rgb(181, 243, 181);
+}
+
+.go {
+    margin-top: 12px;
+    width: 72px;
+    height: 36px;
+    font-size: 24px;
+    color: #181817;
+    font-weight: bold;
+    border-radius: 16px;
+    border: #31722b 3px solid;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -1px 1px 2px #181817;
+    background-color: #449d3c;
+    cursor: pointer;
+}
+
+.go:hover {
+    border: #174413 3px solid;
+    background-color: #31722b;
+    color: aliceblue;
+}
+
+.images {
+    width: 60px;
+}
+
+.blue {
+    color: darkblue;
+    font-size: xxx-large;
+    display: inline-block;
+    text-shadow: -1px 1px 2px #181817;
+}
+
+.yellow {
+    color: #f9a825;
+    font-size: xxx-large;
+    display: inline-block;
+    text-shadow: -1px 1px 2px #181817;
+}
+
+.red {
+    color: rgb(223, 9, 9);
+    font-size: xxx-large;
+    display: inline-block;
+    text-shadow: -1px 1px 2px #181817;
+}
+
+h5 {
+    color: rgb(223, 9, 9);
+    margin: 5px;
+    left: 56px;
+    position: inherit;
+}
+
+.hidden {
+    display: none;
+}
